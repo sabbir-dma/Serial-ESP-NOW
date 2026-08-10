@@ -1,14 +1,4 @@
-/*
- * ESP-NOW Bridge Firmware v2.0
- * 
- * This device reads sensor data from Serial2 (from first ESP),
- * formats it into the Message structure, and broadcasts via ESP-NOW
- * ONLY when new data is received.
- * 
- * Hardware: ESP32
- * Serial2: Connected to first ESP's serial output
- * ESP-NOW: Broadcasts formatted messages to gateway
- */
+
 
 #include <esp_now.h>
 #include <WiFi.h>
